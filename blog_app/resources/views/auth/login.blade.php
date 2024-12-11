@@ -26,7 +26,9 @@
             @enderror
         </div>
 
-        <button type="submit" class="btn btn-primary hover:bg-yellow-200 bg-yellow-500 px-5 py-3 rounded-full">Login</button>
+        <button type="submit" class="btn btn-primary hover:bg-yellow-200 bg-yellow-500 px-5 py-3 rounded-full mb-9">Login</button>
+
+        <h3>Not registrered? <a href='{{route('register')}}' class="btn btn-primary hover:bg-yellow-200 bg-yellow-500 px-5 py-3 rounded-full">Register</a>
     </form>
 </body>
 </html>
